@@ -1,0 +1,50 @@
+Text
+"Chapter 1. The Machine Learning
+Landscape
+Not so long ago, if you had picked up your phone and asked it the way
+home, it would have ignored you—and people would have questioned your
+sanity . But machine learning is no longer science fiction: billions of people
+use it every day . And the truth is it has actually been around for decades in
+some specialized applications, such as optical character recognition (OCR). The first ML application that really became mainstream, improving the
+lives of hundreds of millions of people, took over the world back in the
+1990s: the spam filter . It’s not exactly a self-aware robot, but it does
+technically qualify as machine learning: it has actually learned so well that
+you seldom need to flag an email as spam anymore. It was followed by
+hundreds of ML applications that now quietly power hundreds of products
+and features that you use regularly: voice prompts, automatic translation,
+image search, product recommendations, and many more. Where does machine learning start and where does it end?"
+"What exactly
+does it mean for a machine to learn  something? If I download a copy of all
+Wikipedia articles, has my computer really learned something? Is it
+suddenly smarter? In this chapter I will start by clarifying what machine
+learning is and why you may want to use it. Then, before we set out to explore the machine learning continent, we will
+take a look at the map and learn about the main regions and the most
+notable landmarks: supervised versus unsupervised learning and their
+variants, online versus batch learning, instance-based versus model-based
+learning. Then we will look at the workflow of a typical ML project,
+discuss the main challenges you may face, and cover how to evaluate and
+fine-tune a machine learning system. This chapter introduces a lot of fundamental concepts (and jar gon) that
+every data scientist should know by heart. It will be a high-level overview
+(it’s the only chapter without much code), all rather simple, but my goal is
+to ensure everything is crystal clear to you before we continue on to the rest
+of the book. So grab a cof fee and let’ s get started! TIP
+If you are already familiar with machine learning basics, you may want to skip directly to Chapter 2 . If you are not sure, try to answer all the questions listed at the end of the chapter before moving on. What Is Machine Learning? Machine learning is the science (and art) of programming computers so
+they can learn fr om data . Here is a slightly more general definition:
+[Machine learning is the] field of study that gives computers the
+ability to learn without being explicitly pr ogrammed. —Arthur Samuel, 1959
+And a more engineering-oriented one:
+A computer pr ogram is said to learn fr om experience E with r espect
+to some task T and some performance measur e P, if its performance
+on T, as measur ed by P, impr oves with experience E. —Tom Mitchell, 1997
+Your spam filter is a machine learning program that, given examples of
+spam emails (flagged by users) and examples of regular emails (nonspam,
+also called “ham”), can learn to flag spam. The examples that the system
+uses to learn are called the training set ."
+"Each training example is called a
+training instance  (or sample ). The part of a machine learning system that
+learns and makes predictions is called a model . Neural networks and
+random forests are examples of models. In this case, the task T is to flag spam for new emails, the experience E is
+the training data , and the performance measure P needs to be defined; for
+example, you can use the ratio of correctly classified emails. This particular
+performance measure is called accuracy , and it is often used in
+classification tasks."

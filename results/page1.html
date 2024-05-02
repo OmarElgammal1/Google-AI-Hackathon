@@ -1,27 +1,66 @@
 ```html
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
 <body>
-    <h1 style="font-family: Arial, sans-serif; color: blue; font-size: 36px;">What Is Machine Learning?</h1>
-    <p style="font-family: Verdana, sans-serif; color: black; font-size: 18px;">
-        What exactly does it mean for a machine to learn something? If I download a copy of all Wikipedia articles, has my computer really learned something? Is it suddenly smarter? In this chapter I will start by clarifying what machine learning is and why you may want to use it.<br>
-        <br>
-        Then, before we set out to explore the machine learning continent, we will take a look at the map and learn about the main regions and the most notable landmarks: supervised versus unsupervised learning and their variants, online versus batch learning, instance-based versus model-based learning.<br>
-        <br>
-        Then we will look at the workflow of a typical ML project, discuss the main challenges you may face, and cover how to evaluate and fine-tune a machine learning system. This chapter introduces a lot of fundamental concepts (and jar gon) that every data scientist should know by heart. It will be a high-level overview (it’s the only chapter without much code), all rather simple, but my goal is to ensure everything is crystal clear to you before we continue on to the rest of the book.<br>
-        <br>
-        So grab a cof fee and let’ s get started!<br>
-        <br>
-        TIP<br>
-        If you are already familiar with machine learning basics, you may want to skip directly to Chapter 2 . If you are not sure, try to answer all the questions listed at the end of the chapter before moving on.
-    </p>
-    <h2 style="font-family: Arial, sans-serif; color: green; font-size: 24px;"><ins style="background-color: yellow;">Machine learning is the science (and art) of programming computers so they can learn fr om data.</ins></h2>
-    <p style="font-family: Verdana, sans-serif; color: black; font-size: 18px;">
-        Here is a slightly more general definition:<br>
-        [Machine learning is the] field of study that gives computers the ability to learn without being explicitly pr ogrammed. —Arthur Samuel, 1959<br>
-        <br>
-        And a more engineering-oriented one:<br>
-        <ins style="background-color: yellow;">A computer pr ogram is said to learn fr om experience E with r espect to some task T and some performance measur e P, if its performance on T, as measur ed by P, impr oves with experience E. —Tom Mitchell, 1997</ins><br>
-        <br>
-        Your spam filter is a machine learning program that, given examples of spam emails (flagged by users) and examples of regular emails (nonspam, also called “ham”), can learn to flag spam. The examples that the system uses to learn are called the training set.
-    </p>
+  <h1>What Is Machine Learning?</h1>
+
+  <p>Machine learning is the science (and art) of programming computers so
+  they can learn fr om data.</p>
+
+  <p>Here is a slightly more general definition:</p>
+
+  <p class="bold italic">[Machine learning is the] field of study that gives computers the
+  ability to learn without being explicitly pr ogrammed.</p>
+
+  <p>-Arthur Samuel, 1959</p>
+
+  <p>And a more engineering-oriented one:</p>
+
+  <p class="bold italic">A computer pr ogram is said to learn fr om experience E with r espect
+  to some task T and some performance measur e P, if its performance
+  on T, as measur ed by P, impr oves with experience E.</p>
+
+  <p>-Tom Mitchell, 1997</p>
+
+  <p>Your spam filter is a machine learning program that, given examples of
+  spam emails (flagged by users) and examples of regular emails (nonspam,
+  also called “ham”), can learn to flag spam. The examples that the system
+  uses to learn are called the training set.</p>
+
+  <p class="highlight">- Machine learning involves programming computers to learn from data, allowing them to adapt without explicit programming.</p>
+  <p class="highlight">- Machine learning encompasses various subfields, including supervised and unsupervised learning, online and batch learning, and instance-based and model-based learning.</p>
+  <p class="highlight">- The workflow of a machine learning project typically involves data collection, model selection, training, evaluation, and fine-tuning.</p>
 </body>
+</html>
 ```
